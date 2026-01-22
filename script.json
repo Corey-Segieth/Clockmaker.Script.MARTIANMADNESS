@@ -594,7 +594,7 @@
       "Cannot Vote"
     ],
     "setup": true,
-    "ability": "Each night*, choose a player: they die. If you would kill a living Townsfolk, that player to become an evil Corruptor and you die. Demons cannot vote while dead. [+2 Outsiders]",
+    "ability": "Each night*, choose a player: they die. If you would kill a living Townsfolk, that player becomes an evil Corruptor and you die. Demons cannot vote while dead. [+2 Outsiders]",
     "jinxes": [],
     "remindersGlobal": [],
     "special": [
