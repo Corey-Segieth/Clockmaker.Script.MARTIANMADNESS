@@ -24,7 +24,7 @@
 * Expendable: Each night*, before dawn, choose to live or die. You cannot die by execution. Your ability functions even while dead.
 * Dreadnaut: Each night*, choose a player: they die. The first time you die, you don't. Good players that nominate you are Brain Scrambled.
 * Hive: Each night*, all evil players wake to strategize. They must collectively decide on a player to kill. The first time a Minion is nominated, they become an evil Hive at night.
-* Corruptor: Each night*, choose a player: they die. If you would kill a living Townsfolk, that player to become an evil Corruptor and you die. Demons cannot vote while dead. [+2 Outsiders]
+* Corruptor: Each night*, choose a player: they die. If you would kill a living Townsfolk, that player becomes an evil Corruptor and you die. Demons cannot vote while dead. [+2 Outsiders]
 * Devil's Machine: Each night*, choose a player: they die. If you die, the storyteller gains your ability and the game continues. If the storyteller is executed with your ability, good wins, even if you are dead. A good player starts knowing the Devil's Machine is in play.
 * Bully: Each night, choose a player: they learn something that is false.
 * Mason: Each night, choose a player: they have no ability today, but cannot die this night.
