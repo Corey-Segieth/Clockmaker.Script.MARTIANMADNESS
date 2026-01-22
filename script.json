@@ -1,0 +1,804 @@
+[
+  {
+    "id": "_meta",
+    "name": "MARTIAN MADNESS",
+    "author": "Corey",
+    "firstNight": [
+      "dusk",
+      "demoninfo",
+      "minioninfo",
+      "MARTIAN MADNESS_33",
+      "brainscrambler1_martian_madness",
+      "bioweapon_martian_madness",
+      "stargazer_martian_madness",
+      "geneticist_martian_madness",
+      "prankster1_martian_madness",
+      "psychoanalyst_martian_madness",
+      "ventriliquist_martian_madness",
+      "MARTIAN MADNESS_28",
+      "pilot_martian_madness",
+      "instructor_martian_madness",
+      "biologist_martian_madness",
+      "tourguide_martian_madness",
+      "mover_martian_madness",
+      "devilsmachine_martian_madness",
+      "dawn"
+    ],
+    "otherNight": [
+      "dusk",
+      "MARTIAN MADNESS_33",
+      "hive_martian_madness",
+      "dreadnaut_martian_madness",
+      "nebulon_martian_madness",
+      "devilsmachine_martian_madness",
+      "geneticist_martian_madness",
+      "zookeeper_martian_madness",
+      "MARTIAN MADNESS_30",
+      "incubator_martian_madness",
+      "brainscrambler1_martian_madness",
+      "MARTIAN MADNESS_28",
+      "prankster1_martian_madness",
+      "ventriliquist_martian_madness",
+      "broadcaster_martian_madness",
+      "philanthropist_martian_madness",
+      "biologist_martian_madness",
+      "tourguide_martian_madness",
+      "instructor_martian_madness",
+      "mover_martian_madness",
+      "expendable_martian_madness",
+      "dawn"
+    ],
+    "almanac": "https://www.bloodstar.xyz/p/Corey_S/Martian_Madness/almanac.html"
+  },
+  {
+    "id": "psychoanalyst_martian_madness",
+    "edition": "MARTIAN MADNESS",
+    "name": "Psychoanalyst",
+    "firstNightReminder": "Wake the Psychoanalyst and show them 3 players, then a number equal to the count of distinct character types among them.",
+    "otherNightReminder": "",
+    "team": "townsfolk",
+    "reminders": [
+      "Analyzed",
+      "1",
+      "2",
+      "3",
+      "No Ability"
+    ],
+    "setup": false,
+    "ability": "You start knowing 3 players and how many distinct character types they have.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/psychoanalyst_martian_madness/0.png"
+    ],
+    "flavor": "I am going to present you with a couple more of objects and shapes and I just want you to tell me what you see, does that sound alright?"
+  },
+  {
+    "id": "ventriliquist_martian_madness",
+    "edition": "MARTIAN MADNESS",
+    "name": "Ventriliquist",
+    "firstNightReminder": "Show a player an in play role.",
+    "otherNightReminder": "Show a player an in play role.",
+    "team": "townsfolk",
+    "reminders": [
+      "Learned"
+    ],
+    "setup": false,
+    "ability": "Each night, a player learns a role that is in play.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/ventriliquist_martian_madness/0.png"
+    ],
+    "flavor": "I would like you to meet my little friend. Now don't be shy, say hi Marco."
+  },
+  {
+    "id": "prankster1_martian_madness",
+    "edition": "MARTIAN MADNESS",
+    "name": "Prankster",
+    "firstNightReminder": "Show the Prankster a good player, then scramble their brain.",
+    "otherNightReminder": "Show the Prankster a good player, then scramble their brain.",
+    "team": "townsfolk",
+    "reminders": [
+      "Knows",
+      "Brain Scrambled"
+    ],
+    "setup": false,
+    "ability": "Each night, learn a good player: their brain is scrambled.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/prankster1_martian_madness/0.png"
+    ],
+    "flavor": "It was just a joke dude. Chill! Its not like I was trying to kill you, come on."
+  },
+  {
+    "id": "biologist_martian_madness",
+    "edition": "MARTIAN MADNESS",
+    "name": "Biologist",
+    "firstNightReminder": "Prompt the Biologist to choose any evil role(s) from the character sheet. If they choose one in play, do not wake them tomorrow.",
+    "otherNightReminder": "Prompt the Biologist to choose any evil role(s) from the character sheet. If they choose one in play, do not wake them tomorrow.",
+    "team": "townsfolk",
+    "reminders": [
+      "Sleep"
+    ],
+    "setup": false,
+    "ability": "Each night, choose any number of roles. If any are in play, you do not wake tomorrow night.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/biologist_martian_madness/0.png"
+    ],
+    "flavor": "Dr. Harvey, return with those samples at once good sir... Thank you. Oh my, this is a most peculiar specimen indeed... Its like nothing I have ever seen before. Harvey my friend, do you know what this means? This could finally prove our hypothesis correct. This Petri dish might just be the proof we needed that extraterrestrial life can exist beyond our planet!"
+  },
+  {
+    "id": "mover_martian_madness",
+    "edition": "MARTIAN MADNESS",
+    "name": "Mover",
+    "firstNightReminder": "If the Mover has not used their ability: The Mover either shakes their head no, or points to 2 players. The chosen players learns the other players' name and whether they are a demon.",
+    "otherNightReminder": "If the Mover has not used their ability: The Mover either shakes their head no, or points to 2 players. The chosen players learns the other players' name and whether they are a demon.",
+    "team": "townsfolk",
+    "reminders": [
+      "No Ability"
+    ],
+    "setup": false,
+    "ability": "Once per game, at night, choose 2 players: They learn if the other chosen player is a demon.",
+    "jinxes": [],
+    "remindersGlobal": [
+      "Knows",
+      "Moving Tonight"
+    ],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/mover_martian_madness/0.png"
+    ],
+    "flavor": "That is the last of your furniture my friend. You should be all moved in! Oh, this was nothing. You should have seen your neighbor. They had a 300-pound chest of drawers they wanted on the second floor. What a monster that item was! Nice couple though. I should be going, believe it or not, you aren't the only person in this neighborhood moving in this week. "
+  },
+  {
+    "id": "instructor_martian_madness",
+    "edition": "MARTIAN MADNESS",
+    "name": "Instructor",
+    "firstNightReminder": "If the Mover has not used their ability: The Mover either shakes their head no, or points to a player. The chosen player learns 2 living players are not any Minion.",
+    "otherNightReminder": "If the Mover has not used their ability: The Mover either shakes their head no, or points to a player. The chosen player learns 2 living players are not any Minion.",
+    "team": "townsfolk",
+    "reminders": [
+      "No Ability"
+    ],
+    "setup": false,
+    "ability": "Once per game, at night, choose a player (not yourself): They learn 2 living players that are not a Minion.",
+    "jinxes": [],
+    "remindersGlobal": [
+      "Knows",
+      "Instructed Tonight"
+    ],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/instructor_martian_madness/0.png"
+    ],
+    "flavor": "It has been such a pleasure tutoring your daughter Mr. and Ms. Hopkins! She is a natural, really, she is. She has incredible deductive reasoning skills for her age. She just needs to be pointed in the right direction!"
+  },
+  {
+    "id": "broadcaster_martian_madness",
+    "edition": "MARTIAN MADNESS",
+    "name": "Broadcaster",
+    "otherNightReminder": "Deliver any requested misinformation to the specified evil players.",
+    "team": "townsfolk",
+    "reminders": [
+      "Request Used"
+    ],
+    "setup": false,
+    "ability": "Once per game, during the day,  you may privately provide the storyteller with some information for the evil team to learn.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/broadcaster_martian_madness/0.png"
+    ],
+    "flavor": "Yooouurrr listening to 104 Ravenswood Radio - home of the best beats on this side of the bluff! Or most places honestly!"
+  },
+  {
+    "id": "tourguide_martian_madness",
+    "edition": "MARTIAN MADNESS",
+    "name": "Tour Guide",
+    "firstNightReminder": "If an Outsider neighbours the Tour Guide, show them the player who is the Tour Guide.",
+    "otherNightReminder": "If an Outsider neighbours the Tour Guide, show them the player who is the Tour Guide.",
+    "team": "townsfolk",
+    "reminders": [
+      "Knows"
+    ],
+    "setup": false,
+    "ability": "If your nearest alive neighbour is an Outsider, they learn you are the Tour Guide.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/tourguide_martian_madness/0.png"
+    ],
+    "flavor": "Arthur? I am so glad you could make it! I know you are new around town, so I was hoping you would show. Why don't we get started! Thank you everyone for joining me today on this historic voyage through the iconic town of Ravenswood Bluff. While today our sleepy town is host to the esteemed Ravenswood University, times were not always so peaceful..."
+  },
+  {
+    "id": "operator_martian_madness",
+    "edition": "MARTIAN MADNESS",
+    "name": "Operator",
+    "team": "townsfolk",
+    "reminders": [
+      "Cannot Die"
+    ],
+    "setup": false,
+    "ability": "If you learned something true tonight, you cannot die the next day or the subsequent night.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/operator_martian_madness/0.png"
+    ],
+    "flavor": "Just tell me what to do, I want to get back to my job."
+  },
+  {
+    "id": "conspirator_martian_madness",
+    "edition": "MARTIAN MADNESS",
+    "name": "Conspirator",
+    "team": "townsfolk",
+    "reminders": [],
+    "setup": false,
+    "ability": "If you are mad you are not the Conspirator, you cannot learn false information and you cannot be made brain scrambed.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/conspirator_martian_madness/0.png"
+    ],
+    "flavor": "A wild theory, I think not! What I tell you is the objective truth, anyone can see it! What is truth but a collection of belief and evidence? I have both in spades! And I owe you none!"
+  },
+  {
+    "id": "zookeeper_martian_madness",
+    "edition": "MARTIAN MADNESS",
+    "name": "Zoo Keeper",
+    "otherNightReminder": "If the Zoo Keeper died to the demon, wake them to choose a player. Kill that player if they are not a Townsfolk.",
+    "team": "townsfolk",
+    "reminders": [
+      "Dead",
+      "No allignment"
+    ],
+    "setup": false,
+    "ability": "If the Demon kills you, you are woken at night to choose a player: If they are not a Townsfolk, they die.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/zookeeper_martian_madness/0.png"
+    ],
+    "flavor": "By golly, how much longer is this trial going to take! I need to get back to the zoo. If I don't feed Lynda and the other large cats soon, there might be another incident."
+  },
+  {
+    "id": "philanthropist_martian_madness",
+    "edition": "MARTIAN MADNESS",
+    "name": "Philanthropist",
+    "firstNightReminder": "",
+    "otherNightReminder": "The 1st player nominated by the Philanthropist learns they are the Philanthropist.",
+    "team": "townsfolk",
+    "reminders": [
+      "1st Nominee",
+      "Cannot die"
+    ],
+    "setup": false,
+    "ability": "The 1st time you nominate a player, they cannot die today or tonight. That player learns you are the Philanthropist at night.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/philanthropist_martian_madness/0.png"
+    ],
+    "flavor": "Oh? Wait. Hold on a second! No no no! Put that rope down at once. Not THAT kind of nomination! No sir, Gerald here has been nominated for something far more... charitable. "
+  },
+  {
+    "id": "geneticist_martian_madness",
+    "edition": "MARTIAN MADNESS",
+    "name": "Splicer",
+    "firstNightReminder": "Activate relevant effects.",
+    "otherNightReminder": "Activate relevant effects.",
+    "team": "townsfolk",
+    "reminders": [
+      "???"
+    ],
+    "setup": false,
+    "ability": "You have two (on-script) Townsfolk abilities. They may be in or out of play. You don't know which abilities you have.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/geneticist_martian_madness/0.png"
+    ],
+    "flavor": "Hopkins, I couldn't care less about the university guidelines. We are on the verge of a breakthrough and I need someone who is willing to test the latest iteration. If you can't fetch me a student who is willing to make history than I will find a willing participant on my own!"
+  },
+  {
+    "id": "testsubject1_martian_madness",
+    "edition": "MARTIAN MADNESS",
+    "name": "Test Subject",
+    "team": "outsider",
+    "reminders": [
+      "Misdirection From",
+      "Misdirection To",
+      "No Ability"
+    ],
+    "setup": false,
+    "ability": "Once per game, when a player would learn information due to another player's ability, another player learns that information instead.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/testsubject1_martian_madness/0.png"
+    ],
+    "flavor": "Everything itches. Julie, please, whatever you do, don't sign up for the clinical trials. My rash is still angry as ever, and I still feel awful. If that nasty investigator comes knocking again, tell them I am not home."
+  },
+  {
+    "id": "armsdealer1_martian_madness",
+    "edition": "MARTIAN MADNESS",
+    "name": "Arms Dealer",
+    "team": "outsider",
+    "reminders": [
+      "Protection",
+      "Cannot Die"
+    ],
+    "setup": false,
+    "ability": "You might not die durring the day. Evil players cannot die by execution unless all living good players vote.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/armsdealer1_martian_madness/0.png"
+    ],
+    "flavor": "I simply give my responsible clientele the tools they need to uphold their freedoms and don't ask the questions that are bad for business."
+  },
+  {
+    "id": "deaf_martian_madness",
+    "edition": "MARTIAN MADNESS",
+    "name": "Deaf",
+    "team": "outsider",
+    "reminders": [],
+    "setup": false,
+    "ability": "You cannot learn information due to other character's abilities.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/deaf_martian_madness/0.png"
+    ],
+    "flavor": "Would you speak up lad? I have grown a bit hard of hear'n."
+  },
+  {
+    "id": "incubator_martian_madness",
+    "edition": "MARTIAN MADNESS",
+    "name": "Incubator",
+    "otherNightReminder": "If the Incubatored died, all good players are Brain Scrambled tonight.",
+    "team": "outsider",
+    "reminders": [],
+    "setup": false,
+    "ability": "If you die, all good players are Brain Scrambled tonight.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/incubator_martian_madness/0.png"
+    ],
+    "flavor": "Staa-a-y back. I'm hideous, inside and out.. I. I. I just need some alone time. I'm sure it will get better. It will! I know it. It has too..."
+  },
+  {
+    "id": "stargazer_martian_madness",
+    "edition": "MARTIAN MADNESS",
+    "name": "Stargazer",
+    "firstNightReminder": "Wake the Stargazer and point them to any players who are outsiders.",
+    "team": "minion",
+    "reminders": [],
+    "setup": true,
+    "ability": "You start knowing any players who are an Outisider. Outsiders have a Townsfolk ability and they think they are that Townsfolk. [+1 or -1 Outsider]",
+    "jinxes": [],
+    "remindersGlobal": [
+      "Is the Arms Dealer",
+      "Is the Deaf",
+      "Is the Test Subject",
+      "Is the Incubator"
+    ],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/stargazer_martian_madness/0.png"
+    ],
+    "flavor": "Come. Sit over here. Tonight is a beautiful night. I can see you aren't from around here, no worries, stargazing is a pleasure all can enjoy..."
+  },
+  {
+    "id": "brainscrambler1_martian_madness",
+    "edition": "MARTIAN MADNESS",
+    "name": "Brain Scrambler",
+    "firstNightReminder": "Ask the Brain Scrambler to chose a player and role ",
+    "otherNightReminder": "Ask the Brain Scrambler to chose a player and role ",
+    "team": "minion",
+    "reminders": [
+      "Target 1",
+      "Target 2"
+    ],
+    "setup": false,
+    "ability": "Each night, chose 2 players and a role. Tonight, the first chosen player believes the second player has role selected and may recieve arbitrary role related information as if they were.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/brainscrambler1_martian_madness/0.png"
+    ],
+    "flavor": "Connection established. Transmitting signal. "
+  },
+  {
+    "id": "bioweapon_martian_madness",
+    "edition": "MARTIAN MADNESS",
+    "name": "Bio Weapon",
+    "firstNightReminder": "Have the Bio Weapon point to a player. Show that playe that they are the Bio Weapon",
+    "team": "minion",
+    "reminders": [
+      "Knows 1",
+      "Knows 2"
+    ],
+    "setup": false,
+    "ability": "Each night, chose any number of living players, they learn you are the Bio Weapon. Good can't win while you live. After good players successfully learn your role twice, your team wins on the following dusk.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/bioweapon_martian_madness/0.png"
+    ],
+    "flavor": "Primary Objective: contaminate native species and weaken native defenses. "
+  },
+  {
+    "id": "expendable_martian_madness",
+    "edition": "MARTIAN MADNESS",
+    "name": "Expendable",
+    "otherNightReminder": "Wake the expendable and get a hand signal. If thumbs up, they are alive tomorrow. If down, they are not.",
+    "team": "minion",
+    "reminders": [
+      "Dead",
+      "Alive"
+    ],
+    "setup": false,
+    "ability": "Each night*, before dawn, choose to live or die. You cannot die by execution. Your ability functions even while dead.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/expendable_martian_madness/0.png"
+    ],
+    "flavor": "200,000 units are ready with a million more well on the way!"
+  },
+  {
+    "id": "dreadnaut_martian_madness",
+    "edition": "MARTIAN MADNESS",
+    "name": "Dreadnaut",
+    "otherNightReminder": "The Dreadnaut may chose a player to die.",
+    "team": "demon",
+    "reminders": [
+      "Dead",
+      "Cannot Die Yet",
+      "Brain Scrambled"
+    ],
+    "setup": false,
+    "ability": "Each night*, choose a player: they die. The first time you die, you don't. Good players that nominate you are Brain Scrambled.",
+    "jinxes": [],
+    "remindersGlobal": [
+      "Knows"
+    ],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/dreadnaut_martian_madness/0.png"
+    ],
+    "flavor": "An abominable creature lurks in our village. At night the ground trembles as the mighty beast approaches its next victim. Finding them will be no issue, the real question is whether we have enough combined pitchforks, guns, and nooses to kill it..."
+  },
+  {
+    "id": "hive_martian_madness",
+    "edition": "MARTIAN MADNESS",
+    "name": "Hive",
+    "otherNightReminder": "Wake all evil player and give them some time to strategize, then signal for the group to chose a player: that player dies. If there is no consensus, the storyteller may chose who dies. If a Minions was nominated, show them their new role at this time.",
+    "team": "demon",
+    "reminders": [
+      "Dead",
+      "Nominated"
+    ],
+    "setup": false,
+    "ability": "Each night*, all evil players wake to strategize. They must collectively decide on a player to kill. The first time a Minion is nominated, they become an evil Hive at night.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/hive_martian_madness/0.png"
+    ],
+    "flavor": "Does anyone else hear a buzzing sound? It sounds like its coming from... everywhere..."
+  },
+  {
+    "id": "nebulon_martian_madness",
+    "edition": "MARTIAN MADNESS",
+    "name": "Corruptor",
+    "otherNightReminder": "The Corruptor may chose a player to die. If they would kill a living Townsfolk, they become an evil Corruptor and the current Demon dies.",
+    "team": "demon",
+    "reminders": [
+      "Dead",
+      "Cannot Vote"
+    ],
+    "setup": true,
+    "ability": "Each night*, choose a player: they die. If you would kill a living Townsfolk, that player to become an evil Corruptor and you die. Demons cannot vote while dead. [+2 Outsiders]",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/nebulon_martian_madness/0.png"
+    ],
+    "flavor": "In our vast travels, never have we seen a species so easily manipulable. I take no pleasure in granting your pathetic lives a merciful closure."
+  },
+  {
+    "id": "devilsmachine_martian_madness",
+    "edition": "MARTIAN MADNESS",
+    "name": "Devil's Machine",
+    "firstNightReminder": "A good player starts knowing the Devil's Machine is in play.",
+    "otherNightReminder": "The Devil's Machine may chose a player to die.",
+    "team": "demon",
+    "reminders": [
+      "Dead",
+      "Knows"
+    ],
+    "setup": false,
+    "ability": "Each night*, choose a player: they die. If you die, the storyteller gains your ability and the game continues. If the storyteller is executed with your ability, good wins, even if you are dead. A good player starts knowing the Devil's Machine is in play.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/devilsmachine_martian_madness/0.png"
+    ],
+    "flavor": "In the end, all they could do was Pray..."
+  },
+  {
+    "id": "bully_martian_madness",
+    "edition": "MARTIAN MADNESS",
+    "name": "Bully",
+    "team": "traveller",
+    "reminders": [],
+    "setup": false,
+    "ability": "Each night, choose a player: they learn something that is false.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/bully_martian_madness/0.png"
+    ],
+    "flavor": "Phil is stupid and smells like beans! Pass it on."
+  },
+  {
+    "id": "MARTIAN MADNESS_33",
+    "edition": "Elective Apocolipse",
+    "name": "Mason",
+    "firstNightReminder": "Wake the Mason. The Mason points at a player.  They lose their ability today and are protected this night.",
+    "otherNightReminder": "Wake the Mason. The Mason points at a player.  They lose their ability today and are protected this night.",
+    "team": "traveller",
+    "reminders": [
+      "No Ability",
+      "Protected"
+    ],
+    "setup": false,
+    "ability": "Each night, choose a player: they have no ability today, but cannot die this night.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/MARTIAN%20MADNESS_33/0.png"
+    ],
+    "flavor": "I built this town and I can tear it down."
+  },
+  {
+    "id": "MARTIAN MADNESS_28",
+    "edition": "MARTIAN MADNESS",
+    "name": "Hypnotist",
+    "firstNightReminder": "The Hypnotist may chose a player to be mad.",
+    "otherNightReminder": "The Hypnotist may chose a player to be mad.",
+    "team": "traveller",
+    "reminders": [
+      "Mad"
+    ],
+    "setup": false,
+    "ability": "Each night, choose a player, they are mad that you share their allignment. If they break madness, they might die.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/MARTIAN%20MADNESS_28/0.png"
+    ],
+    "flavor": "Me and you... What a great team we make... Wouldn't you agree?"
+  },
+  {
+    "id": "MARTIAN MADNESS_30",
+    "edition": "Elective Apocolipse",
+    "name": "Mask Maker",
+    "otherNightReminder": "The Mask Maker chooses someone to revive, then joins their team",
+    "team": "traveller",
+    "reminders": [],
+    "setup": false,
+    "ability": "Once per game, at night, you may choose a dead player: They are revived and you become their allignment. You don't know your allignment.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/MARTIAN%20MADNESS_30/0.png",
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/MARTIAN%20MADNESS_30/1.png",
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/MARTIAN%20MADNESS_30/2.png"
+    ],
+    "flavor": "Awe, what's with the glum face? I have a gift for you: it will help put some pep-back in your step when you need it most. I know it has put me into a better mindset in the past."
+  },
+  {
+    "id": "MARTIAN MADNESS_31",
+    "edition": "MARTIAN MADNESS",
+    "name": "Doll Collector",
+    "team": "traveller",
+    "reminders": [],
+    "setup": false,
+    "ability": "When a player of your allignment learns information due to another player's ability at night, you might also learn this information.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/MARTIAN%20MADNESS_31/0.png",
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/MARTIAN%20MADNESS_31/1.png"
+    ],
+    "flavor": "Oh don't worry about old aunt Linda. She has always been into collecting dolls. In her old age she has gotten a bit obsessive... she keeps mumbling about the dolls talking to her and telling her secrets. It is quite concerning, but at her age your mind will start to go too. Please try not to entertain her musings, she needs us to help keep her imagination grounded. "
+  },
+  {
+    "id": "MARTIAN MADNESS_32",
+    "edition": "MARTIAN MADNESS",
+    "name": "Illusionist",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "team": "traveller",
+    "reminders": [
+      "Brain Scrambled"
+    ],
+    "setup": false,
+    "ability": "A player who oposses your allignment is brain scrambled.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/MARTIAN%20MADNESS_32/0.png"
+    ],
+    "flavor": "All a part of the show..."
+  },
+  {
+    "id": "pilot_martian_madness",
+    "edition": "MARTIAN MADNESS",
+    "name": "Pilot",
+    "firstNightReminder": "Show the Pilot someone who oposses their allignment.",
+    "team": "traveller",
+    "reminders": [
+      "Knows"
+    ],
+    "setup": false,
+    "ability": "Start knowing a player who oposses your allignment. If you are most responsible for their death, something bad happens. You don't know your allignment.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/pilot_martian_madness/0.png"
+    ]
+  },
+  {
+    "id": "MARTIAN MADNESS_29",
+    "edition": "Location Location Location",
+    "name": "T H E    F R O G",
+    "team": "traveller",
+    "reminders": [
+      "Is frog"
+    ],
+    "setup": false,
+    "ability": "You are the frog. You are amphibious. You may not talk. You may jump and croak",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/MARTIAN%20MADNESS_29/0.png",
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/MARTIAN%20MADNESS_29/1.png",
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/MARTIAN%20MADNESS_29/2.png"
+    ],
+    "flavor": "Ribbit ribbit croak"
+  },
+  {
+    "id": "minddistortion_martian_madness",
+    "edition": "MARTIAN MADNESS",
+    "name": "Mind Distortion",
+    "team": "loric",
+    "reminders": [],
+    "setup": false,
+    "ability": "This script contains roles that can inflict \"Brain Scrambled.\" Brain scrambled players might incorrectly learn which characters or roles used their ability to interact with them. Players cannot falsely learn they have changed alignments or characters.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/Corey-Segieth/Clockmaker.Script.MARTIANMADNESS/main/token/minddistortion_martian_madness/0.png"
+    ],
+    "flavor": "Up is down. Left is right. Good is mad. Truth is blight."
+  }
+]
